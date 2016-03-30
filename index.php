@@ -2,8 +2,8 @@
 	require '/includes/Instagram.php';
 	use MetzWeb\Instagram\Instagram;
 	$instagram = new Instagram(array(
-		'apiKey' => '31a225fef5b8437eb567a571b006cb75',
-		'apiSecret' => '0c92c6682a364cdab197b98e1188a80f',
+		'apiKey' => '302a9b63dfeb4b258e4b3482192dfe26',
+		'apiSecret' => '34a9c5236da7462d86bdcfb9d4af8f9e',
 		'apiCallback' => 'http://localhost'
 	));
 	$result = $instagram->getPopularMedia();
@@ -56,4 +56,3 @@
 			}
 		?>
 	</body>
-</html>
