@@ -13,14 +13,7 @@ $result = $instagram->getPopularMedia();
 <head>
     <meta charset="utf-8">
     <title>Instagram Feed</title>
-    <style>
-        .login{
-            display: block;
-            font-size: 100%;
-            font-weight: bold;
-            margin: 50px 0 0;
-        }
-    </style>
+    <script src="assets/css/style.css"></script>
 </head>
 <body>
 <a class="login" href="<?php echo $instagram->getLoginUrl(); ?>">� Login with Instagram</a>
