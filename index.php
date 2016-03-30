@@ -11,7 +11,7 @@ require 'credentials.php';
 	<body>
 		<a class="login" href="<?php echo $instagram->getLoginUrl(); ?>">� Login with Instagram</a>
 		<?php
-			foreach($result->data as $media){
+			/*foreach($result->data as $media){
 				$content = '<li>';
 				// output media
 				if($media->type === 'video'){
@@ -38,6 +38,7 @@ require 'credentials.php';
 						 </div>";
 				// output media
 				echo $content . '</li>';
-			}
+			}*/
+        echo "User"
 		?>
 	</body>
