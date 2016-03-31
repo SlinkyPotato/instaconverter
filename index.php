@@ -39,6 +39,9 @@ require 'credentials.php';
 				// output media
 				echo $content . '</li>';
 			}*/
-        echo "User"
+        // grab OAuth callback code
+        $code = $_GET['code'];
+        $data = $instagram->getOAuthToken($code);
+        echo "Username is " . $data->user->username;
 		?>
 	</body>
